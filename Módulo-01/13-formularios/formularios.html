@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt.br">
+
+    <head>
+        <title>Formulários</title>
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+        
+        <form action="cadastro.php" method="POST">
+            <fieldset>
+            <legend>Informações Pessoais</legend>
+            Nome: <br>
+            <input type="text" name="nome" required maxlength="30" placeholder="João Carlos"> <br>
+            Senha: <br>
+            <input type="password" name="senha" required autofocus disabled> <br>
+            E-mail: <br>
+            <input type="email" name="email" placeholder="email@email.com"> <br>
+            Time: <br>
+            <br>
+            Imagem: <br>
+            <input type="file" name="imagen"> <br>
+            <br>
+
+            Data: <br>
+            <input type="date" name="data" min="2000-12-31" max="2020-12-31"> <br>
+            <br>
+
+            Hora: <br>
+            <input type="time" name="hora"> <br>
+            <br>
+
+            Mês e Ano: <br>
+            <input type="month" name="mês e ano"> <br>
+            <br>
+
+            Semana: <br>
+            <input type="week" name="semana"> <br>
+            <br>
+
+            Data e Hora: <br>
+            <input type="datetime-local" name="data e hora"> <br>
+            <br>
+
+            <input type="hidden" name="id"> <br>
+            <br>
+
+            URL: <br>
+            <input type="url" name="site"> <br>
+            <br>
+
+            Search: <br>
+            <input type="seach" name="pesquisa"> <br>
+            <br>
+
+            Telefone: <br>
+            <input type="tel" name="telefone"> <br>
+            <br>
+
+
+
+            <input type="radio" name="time" value="Flamengo" checked>Flamengo<br>
+            <input type="radio" name="time" value="River">River<br>
+            <input type="radio" name="time" value="Chelsea">Chelsea<br>
+            <input type="radio" name="time" value="Bayern">Bayern<br>
+            <br>
+            Cores: <br>
+            <input type="checkbox" name="cores" value="verde">Verde <br>
+            <input type="checkbox" name="cores" value="preto" checked>Preto <br>
+            <input type="checkbox" name="cores" value="azul">Azul <br>
+
+            Quatidade: <br>
+            <input type="number" nome="quantidade" min="0" max="500" step="10"> <br>
+            <br>
+            <input type="range" name="quantidade"> <br>
+            <br>
+            <input type="color" name="cor"> <br>
+            <br>
+            <input type="submit" name="btn-enviar" value="Enviar">
+            </fieldset>
+        </form>
+
+    </body>
+</html>
